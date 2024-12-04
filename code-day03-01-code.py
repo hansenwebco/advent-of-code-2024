@@ -11,7 +11,7 @@ with open('input-day03-01.txt', 'r') as file:
     text = file.read()
 
 # Apply regex to find mul(#,#)
-pattern = r"mul\(\d{1,3},\d{1,3}\)"  # Replace with your desired regex pattern
+pattern = r"mul\(\d{1,3},\d{1,3}\)" 
 matches = re.findall(pattern, text)
 
 # loop through matches and multiply, we could have a used a more specific regex here but eh
