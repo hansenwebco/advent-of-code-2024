@@ -1,5 +1,5 @@
 # Advent of Code 2024
-#https://adventofcode.com/2024/day/4
+# https://adventofcode.com/2024/day/4
 
 puzzle2D = []
 width = 0
